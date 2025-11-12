@@ -481,7 +481,7 @@ namespace Atividade04_Concessionaria
 		    {
 		        for (int i = 0; i < contadorVeiculos; i++)
 		        {
-		        	Console.WriteLine("Marca: {0}", veiculos[1].Marca);
+		        	Console.WriteLine("Marca: {0}", veiculos[i].Marca);
 		            Console.WriteLine("Modelo:{0}", veiculos[i].Modelo);
 		            Console.WriteLine("Ano:{0}", veiculos[i].Ano);
 		            Console.WriteLine("Preço: R${0}", veiculos[i].Preco);
